@@ -12,16 +12,14 @@ require("mason").setup({
 
 require("mason-lspconfig").setup({
 	ensure_installed = {
-		"clangd",
 		"bashls",
-		"dockerls",
-		"gopls",
-		"html",
+		"css-lsp",
+		"html-lsp",
+		"jsonls",
 		"lua_ls",
-		"mutt_ls",
-		"pyright",
+		"marksman",
+		"ruby-lsp",
 		"yamlls",
-		"rust_analyzer",
 	},
 
 	--clangd = {},
