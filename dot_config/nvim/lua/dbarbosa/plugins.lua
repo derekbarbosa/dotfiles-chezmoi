@@ -40,7 +40,9 @@ return {
 	},
 
 	-- TreeSitter (parser and syntax gen tool)
-	{ "nvim-treesitter/nvim-treesitter" },
+	{
+		"romus204/tree-sitter-manager.nvim",
+	},
 
 	-- NVIM-tree (NERDTree but neovim)
 	{
