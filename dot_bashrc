@@ -35,3 +35,5 @@ bind '"\e[Z":menu-complete-backward'
 
 ### -- END User-specific configs ---
 
+export GEM_HOME="$HOME/.local/share/gem"
+export PATH="$HOME/.local/share/gem/bin:$PATH"
