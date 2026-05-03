@@ -1,6 +1,6 @@
 -- treesitter-config.lua
 
-local configs = require("nvim-treesitter.configs")
+local configs = require("nvim-treesitter")
 configs.setup {
 	-- Add a language of your choice
 	ensure_installed = { "lua", "vim", "vimdoc", "bash", "markdown", "yaml", "json", "html", "css", "ruby"},

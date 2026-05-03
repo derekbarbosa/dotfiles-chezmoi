@@ -40,7 +40,10 @@ return {
 	},
 
 	-- TreeSitter (parser and syntax gen tool)
-	{ "nvim-treesitter/nvim-treesitter" },
+	{
+		"nvim-treesitter/nvim-treesitter",
+		branch = "main"
+	},
 
 	-- NVIM-tree (NERDTree but neovim)
 	{
