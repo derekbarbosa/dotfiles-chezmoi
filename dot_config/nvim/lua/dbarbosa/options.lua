@@ -10,7 +10,7 @@ opt.mouse = "a"               -- Enable mouse mode
 opt.spelllang = { "en" }
 opt.shellcmdflag = '-ic'
 opt.showcmd = true
-opt.timeoutlen = 400
+opt.timeoutlen = 600
 opt.undolevels = 10000
 -- ENDIF
 

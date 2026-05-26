@@ -58,5 +58,20 @@ return {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
 	},
-
+	
+	-- Octo Plugin (Github)
+	{
+	  "pwntester/octo.nvim",
+	  cmd = "Octo",
+	  opts = {
+		picker = "telescope",
+		-- bare Octo command opens picker of commands
+		enable_builtin = true,
+	  },
+	  dependencies = {
+		"nvim-lua/plenary.nvim",
+		"nvim-telescope/telescope.nvim",
+		"nvim-tree/nvim-web-devicons", -- optional if file_panel.icons is a function
+	  },
+	},
 }
