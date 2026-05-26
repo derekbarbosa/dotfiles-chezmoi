@@ -51,6 +51,7 @@ export EDITOR='nvim'
 
 alias vim="nvim"
 alias sh="bash"
+alias mutt="neomutt"
 
 alias dotfiles="cd ~/.local/share/chezmoi"
 alias mergetool="nvim -c /':G mergetool'"

@@ -1,0 +1,15 @@
+# Set default values for all following accounts. 
+defaults
+# auth on
+# tls on
+logfile        ~/.config/msmtp/msmtp.log
+
+account gmail
+host smtp.gmail.com
+from derekasobrab@gmail.com
+user derekasobrab
+protocol smtp
+port 587
+passwordeval "gpg2 --no-tty -q -d ~/.password-store/gmail.gpg"
+
+account default : gmail
