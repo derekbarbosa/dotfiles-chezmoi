@@ -72,6 +72,6 @@ bind 'TAB:menu-complete'
 bind '"\e[Z":menu-complete-backward'
 
 . "$HOME/.local/share/../bin/env"
-
+. "$HOME/.cargo/env"
 ### -- END User-specific configs ---
 
